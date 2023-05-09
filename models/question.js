@@ -1,5 +1,10 @@
 const mongoose = require('mongoose');
 
+
+/**
+ * Question schema to hold title and options of perticular question
+ */
+
 const questionSchema = new mongoose.Schema({
     title: {
         type: String,

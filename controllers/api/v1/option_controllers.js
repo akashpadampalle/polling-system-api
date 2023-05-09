@@ -2,7 +2,12 @@
 const Question = require('../../../models/question');
 const Option = require('../../../models/option');
 
-
+/**
+ * create a option
+ * takes the question id from parameters and text of option from body of request
+ * check if quetionsId is valid or not if question id is valid then we create an option
+ * assign link to vote dynamicaly and push option id to the question's options array
+ */
 module.exports.create = async function (req, res) {
 
     try {
@@ -61,6 +66,13 @@ module.exports.create = async function (req, res) {
 }
 
 
+/**
+ * delete the option 
+ * takes option id from parameters
+ * check if option id is valid or not if it is valid
+ * first remove option's id from question's options array
+ * then delete the option from db
+ */
 module.exports.delete = async function (req, res) {
 
     try {
@@ -108,6 +120,13 @@ module.exports.delete = async function (req, res) {
 }
 
 
+
+/**
+ * add vote to the option
+ * takes option id from parameters of request
+ * check if option id is valid or not if valid increate votes by 1
+ * and return option object
+ */
 module.exports.addVote = async function (req, res) {
 
     try {
