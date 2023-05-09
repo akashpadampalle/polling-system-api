@@ -1,6 +1,9 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
+const path = require('path');
 const port = process.env.PORT || 8000;
+
+const db = require(path.join(__dirname, 'configs/db_connections.js'));
 
 const app = express();
 
