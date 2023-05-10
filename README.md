@@ -24,7 +24,8 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | :-------- | :------- | :------------------------------- |
 | `title`   | `string` | **Required**. to create question |
 
-![App Screenshot](./screenshots/create_question.png)
+![create_question](https://github.com/akashpadampalle/polling-system-api/assets/45806342/161ff905-e77a-4843-9990-6578c3ce517a)
+
 
 #### Get Question details
 
@@ -36,7 +37,8 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | :-------- | :------- | :------------------------------------ |
 | `id`      | `string` | **Required**. Id of question to fetch |
 
-![App Screenshot](https://github.com/akashpadampalle/polling-system-api/blob/main/screenshots/get_question.png)
+![get_question](https://github.com/akashpadampalle/polling-system-api/assets/45806342/5b85c272-2f9a-4119-9f95-d968a1ac7716)
+
 
 #### Create options to the Question
 
@@ -49,7 +51,8 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | `id`      | `string` | **Required**. Id of question to fetch |
 | `text`    | `string` | **Required**. to create option        |
 
-![App Screenshot](https://github.com/akashpadampalle/polling-system-api/blob/main/screenshots/create_option.png)
+![create_option](https://github.com/akashpadampalle/polling-system-api/assets/45806342/1f55b7cc-0dd2-42da-abb7-fe187cb2aa93)
+
 
 #### Add vote to the option
 
@@ -61,7 +64,7 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | :-------- | :------- | :------------------------------------- |
 | `id`      | `string` | **Required**. Id of option to add vote |
 
-![App Screenshot](https://github.com/akashpadampalle/polling-system-api/blob/main/screenshots/add_votes.png)
+![add_votes](https://github.com/akashpadampalle/polling-system-api/assets/45806342/e583bae7-0da0-47ee-9295-6cd4c73eaa5d)
 
 #### Delete options
 
@@ -73,7 +76,7 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | :-------- | :------- | :----------------------------------- |
 | `id`      | `string` | **Required**. Id of option to delete |
 
-![App Screenshot](https://github.com/akashpadampalle/polling-system-api/blob/main/screenshots/delete_option.png)
+![delete_option](https://github.com/akashpadampalle/polling-system-api/assets/45806342/5d8368ee-6afe-4f29-982f-5424c53a20b7)
 
 #### Delete question
 
@@ -84,5 +87,5 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | Parameter | Type     | Description                            |
 | :-------- | :------- | :------------------------------------- |
 | `id`      | `string` | **Required**. Id of question to delete |
+![delete_question](https://github.com/akashpadampalle/polling-system-api/assets/45806342/16768b77-60a1-4c54-ac8f-79444b3cf547)
 
-![App Screenshot](https://github.com/akashpadampalle/polling-system-api/blob/main/screenshots/delete_question.png)
