@@ -33,8 +33,11 @@ module.exports.create = async function (req, res) {
             });
         }
 
+
+        const baseUrl = `https://polling-system-api-git-main-akashpadampalle.vercel.app`
+
         const option = await Option.create({ 'text': text, 'question_id': question._id });
-        option.link_to_vote = `http://localhost:8000/api/v1/options/${option.id}/add_vote`;
+        option.link_to_vote = `${baseUrl}/${option.id}/add_vote`;
         await option.save();
 
         if (!option) {
