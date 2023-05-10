@@ -2,6 +2,7 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const port = process.env.PS_PORT;
+const host = '0.0.0.0';
 const db = require('./configs/db_connection');
 
 const app = express(); // getting instance of express server into app constant
@@ -15,7 +16,7 @@ app.use(cookieParser());
 app.use('/', require('./routes/index'));
 
 // server is listening at given port
-app.listen(port, (err) => {
+app.listen(port, host, (err) => {
     if (err) {
         console.log(err);
         return;
