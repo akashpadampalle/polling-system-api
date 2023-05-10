@@ -87,5 +87,6 @@ base-url 👉 https://gentle-stockings-fly.cyclic.app/
 | Parameter | Type     | Description                            |
 | :-------- | :------- | :------------------------------------- |
 | `id`      | `string` | **Required**. Id of question to delete |
+
 ![delete_question](https://github.com/akashpadampalle/polling-system-api/assets/45806342/16768b77-60a1-4c54-ac8f-79444b3cf547)
 
