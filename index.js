@@ -1,7 +1,7 @@
 // including required packages
 const express = require('express');
 const cookieParser = require('cookie-parser');
-const port = process.env.PORT || 8000;
+const port = process.env.PS_PORT;
 const db = require('./configs/db_connection');
 
 const app = express(); // getting instance of express server into app constant
