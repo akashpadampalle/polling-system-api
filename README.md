@@ -7,7 +7,7 @@ A polling system API is an application programming interface that allows develop
 **Server:** 
 | ![nodejs](https://github.com/akashpadampalle/habit-tracker/assets/45806342/6c4aaecf-20b2-444d-ae90-7130d31586bb) | ![expressjs](https://github.com/akashpadampalle/habit-tracker/assets/45806342/caa0ef59-cfc3-45a0-9258-497653e6d17c)     | ![mongoose](https://github.com/akashpadampalle/habit-tracker/assets/45806342/e2e0bccc-4a9b-4a0d-a42f-226be3928d22)                      |
 | :-------- | :------- | :------------------------------- |
-| `nidejs`   | `express` | `mongoose` |
+| `nodejs`   | `express` | `mongoose` |
 
 
 ## Project live link
